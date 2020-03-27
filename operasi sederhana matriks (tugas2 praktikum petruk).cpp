@@ -10,6 +10,11 @@ using namespace std;
     Fanirizki Sofiyana (1917051050)
     Ale Habsyi Arwendi (1917051067)
   */
+int main(){
+    int menu;
+    cout << "==========OPERASI SEDERHANA MATRIKS==========" << endl << endl;
+    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+    cout << "oleh: \n";
   
 int i, j, k, m, n, p, q, jumlah = 0;
 int hasil[100][100];  
