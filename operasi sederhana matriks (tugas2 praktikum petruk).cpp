@@ -15,6 +15,10 @@ int main(){
     cout << "==========OPERASI SEDERHANA MATRIKS==========" << endl << endl;
     cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
     cout << "oleh: \n";
+    cout << "Nur Ayu Octarina     1917051039" << endl;
+    cout << "Fanirizki Sofiyana   1917051050" << endl;
+    cout << "M Ale Habsyi         1917051067" << endl;
+    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"<< endl;
   
 int i, j, k, m, n, p, q, jumlah = 0;
 int hasil[100][100];  
