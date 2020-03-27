@@ -12,10 +12,10 @@ using namespace std;
   */
   
 int i, j, k, m, n, p, q, jumlah = 0;
-int hasil[10][10];  
-  int matriks1[10][10], matriks2[10][10];
-  int (*ptrM1)[10] = matriks1;
-  int (*ptrM2)[10] = matriks2;
+int hasil[100][100];  
+  int matriks1[100][100], matriks2[100][100];
+  int (*ptrM1)[100] = matriks1;
+  int (*ptrM2)[100] = matriks2;
 
 void input_elemen(){
     cout << "Masukkan elemen matriks pertama: \n";
