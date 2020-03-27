@@ -75,3 +75,38 @@ void penjumlahan(){
               }
         } 
 }
+void penjumlahan(){
+    cout << "\n>>> Penjumlahan <<<\n";
+    if (m!=p || n!=q){
+       		cout << "tidak dapat dilakukan penjumlahan karena ordo matriks tidak sama.";
+	}
+	else {
+	    input_elemen();
+	    cout<<"\nHasil penjumlahan matriks : \n";
+        for(int i=0;i<m;i++){
+            for(int j=0;j<q;j++){
+                cout<<(*(*(ptrM1+i)+j) + *(*(ptrM2+i)+j));
+                cout<<"\t";
+            }
+        cout<<endl;
+        }
+    }
+}
+void pengurangan(){
+    cout << "\n>>> Pengurangan <<<\n";
+    if (m!=p || n!=q){
+       		cout << "Tidak dapat dilakukan pengurangan karena ordo matriks tidak sama.";
+	}
+    else {
+        input_elemen();
+        
+        cout << "Hasil pengurangan matriks: \n";
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                cout<<(*(*(ptrM1+i)+j) - *(*(ptrM2+i)+j));
+            cout << "\t";
+        }
+        cout << endl;
+    }
+  }
+}
