@@ -108,7 +108,7 @@ int main(){
     cout << "oleh: \n";
     cout << "Nur Ayu Octarina     1917051039" << endl;
     cout << "Fanirizki Sofiyana   1917051050" << endl;
-    cout << "M Ale Habsyi         1917051067" << endl;
+    cout << "Ale Habsyi Arwendi   1917051067" << endl;
     cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"<< endl;
     cout << "Menu:" << endl;
     cout << "1. Penjumlahan \n";
