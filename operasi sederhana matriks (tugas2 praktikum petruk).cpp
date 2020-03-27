@@ -117,3 +117,14 @@ int main(){
     cout << "4. Semuanya \n";
     cout << "Silakan pilih di sini: ";
     cin >> menu;
+	
+    cout << "Ok, sekarang input data ini dulu ya ini dulu ya:" << endl;
+    cout << "Masukkan jumlah baris matriks pertama: ";
+    cin >> m;
+    cout << "Masukkan jumlah kolom matriks pertama: ";
+    cin >> n;
+    
+    cout << "Masukkan jumlah baris matriks kedua: ";
+    cin >> p;
+    cout << "Masukkan jumlah kolom matriks kedua: ";
+    cin >> q;
