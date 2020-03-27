@@ -110,3 +110,18 @@ void pengurangan(){
     }
   }
 }
+
+void perkalian (){
+    cout << "\n>>> Perkalian <<<\n";
+    if(n != p)
+    cout << "Matriks tidak dapat dikalikan satu sama lain.\n";
+  
+    else {
+        input_elemen();
+        
+        cout << "Hasil perkalian matriks: \n";
+        for(i = 0; i < m; i++)
+          hasil_perkalian(&i);
+    
+    } 
+}
