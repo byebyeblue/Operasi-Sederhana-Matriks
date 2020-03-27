@@ -42,3 +42,36 @@ void input_elemen(){
       }
     }
 }
+
+void penjumlahan(){
+  cout << "\n>>> Penjumlahan <<<\n";
+    if (m!=p || n!=q){
+       		cout << "tidak dapat dilakukan penjumlahan karena ordo matriks tidak sama.";
+    }
+    else {
+	 	  cout<<"\nMasukkan elemen matriks pertama : \n";
+   		  for(int i=0;i<m;i++){
+        	for(int j=0;j<n;j++){
+           		cin>>*(*(ptrM1+i)+j);
+           		cout<<"\t";
+        	}
+        cout<<endl;
+   		  }
+  		cout<<"\nMasukkan elemen matriks kedua : \n";
+   		  for(int i=0;i<p;i++){
+        	for(int j=0;j<q;j++){
+           		cin>>*(*(ptrM2+i)+j);
+           		cout<<"\t";
+        	}
+        cout<<endl;
+  		  }
+	    cout<<"\nHasil penjumlahan matriks : \n";
+         for(int i=0;i<m;i++){
+           for(int j=0;j<q;j++){
+              cout<<(*(*(ptrM1+i)+j) + *(*(ptrM2+i)+j));
+              cout<<"\t";
+                }
+            cout<<endl;
+              }
+        } 
+}
