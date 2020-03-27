@@ -16,3 +16,29 @@ int hasil[10][10];
   int matriks1[10][10], matriks2[10][10];
   int (*ptrM1)[10] = matriks1;
   int (*ptrM2)[10] = matriks2;
+
+void input_elemen(){
+    cout << "Masukkan elemen matriks pertama: \n";
+    for(i = 0; i < m; i++){
+      for(j = 0; j < n; j++){
+        cin >> *(*(ptrM1 + i) + j);
+      }
+    }
+
+    cout << "Masukkan elemen matriks kedua: \n";
+    for(i = 0; i < p; i++){
+      for(j = 0; j < q; j++){
+        cin >> *(*(ptrM2 + i) + j);
+      }
+    }
+
+    for(i = 0; i < m; i++){
+      for(j = 0; j < q; j++){
+        for(k = 0; k < p; k++){
+          jumlah = jumlah + *(*(ptrM1 + i) + k) * *(*(ptrM2 + k) + j);;
+        }
+        *(*(hasil+i)+j) = jumlah;
+        jumlah = 0;
+      }
+    }
+}
