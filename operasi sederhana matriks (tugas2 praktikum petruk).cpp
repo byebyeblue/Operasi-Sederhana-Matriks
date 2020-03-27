@@ -95,6 +95,13 @@ void pengurangan(){
   }
 }
 
+void hasil_perkalian (int *h){
+  for(j = 0; j < q; j++){
+        cout << *(*(hasil+*h)+j) << "\t";
+      }
+      cout << endl;
+}
+
 void perkalian (){
     cout << "\n>>> Perkalian <<<\n";
     if(n != p)
