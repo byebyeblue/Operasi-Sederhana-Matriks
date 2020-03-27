@@ -128,6 +128,26 @@ int main(){
     cin >> p;
     cout << "Masukkan jumlah kolom matriks kedua: ";
     cin >> q;
-
-return 0;
+    
+    switch(menu){
+        case 1:
+        penjumlahan();
+        break;
+        
+        case 2:
+        pengurangan();
+        break;
+        
+        case 3:
+        perkalian();
+        break;
+        
+        case 4:
+        penjumlahan();
+        pengurangan();
+        perkalian();
+        break;
+    }
+  
+  return 0;
 }
