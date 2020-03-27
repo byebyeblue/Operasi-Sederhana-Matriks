@@ -19,6 +19,13 @@ int main(){
     cout << "Fanirizki Sofiyana   1917051050" << endl;
     cout << "Ale Habsyi Arwendi   1917051067" << endl;
     cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"<< endl;
+    cout << "Menu:" << endl;
+    cout << "1. Penjumlahan \n";
+    cout << "2. Pengurangan \n";
+    cout << "3. Perkalian \n";
+    cout << "4. Semuanya \n";
+    cout << "Silakan pilih di sini: ";
+    cin >> menu;
   
 int i, j, k, m, n, p, q, jumlah = 0;
 int hasil[100][100];  
