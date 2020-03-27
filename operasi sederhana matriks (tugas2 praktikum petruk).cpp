@@ -8,7 +8,7 @@ using namespace std;
     Anggota:
     Nur Ayu Octarina (1917051039)
     Fanirizki Sofiyana (1917051050)
-    Ale Habsyi (1917051067)
+    Ale Habsyi Arwendi (1917051067)
   */
   
 int i, j, k, m, n, p, q, jumlah = 0;
